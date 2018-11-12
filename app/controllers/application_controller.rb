@@ -7,4 +7,8 @@ class ApplicationController < Sinatra::Base
   get '/' do
 
   end
+
+  get '/recipes' do
+    
+  end
 end
