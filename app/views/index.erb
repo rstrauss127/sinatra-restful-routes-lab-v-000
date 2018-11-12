@@ -1,1 +1,3 @@
-<%= @recipes %>
+<% @recipes.each do |name| %>
+  <%= name.recipe_name %>
+<% end %>
