@@ -1,4 +1,4 @@
 <% @recipes.each do |recipe| %>
   <p><%= recipe.name %></p>
-  <p>Link <a href="/recipes/#{recipe.id}"></a></p>
+  <p>Link <a href="/recipes/" + #{recipe.id}></a></p>
 <% end %>
