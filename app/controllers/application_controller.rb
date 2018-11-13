@@ -8,7 +8,6 @@ class ApplicationController < Sinatra::Base
 
   get '/recipes' do
     @recipes = Recipe.all
-    puts params
     erb :index
   end
 
