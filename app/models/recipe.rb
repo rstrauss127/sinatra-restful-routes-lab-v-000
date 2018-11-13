@@ -1,3 +1,3 @@
 class Recipe < ActiveRecord::Base
-  attr_accessor :recipe_name, :recipe_cook_time, :recipe_ingredients
+  attr_accessor :name, :cook_time, :ingredients
 end
